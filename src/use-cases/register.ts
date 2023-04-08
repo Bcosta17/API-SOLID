@@ -1,4 +1,4 @@
-import { UsersRepository } from '../../repositories/users-repositories'
+import { UsersRepository } from '@/repositories/users-repositories'
 import { hash } from 'bcryptjs'
 import { UserAlreadyExistsError } from './errors/user-already-exists-error'
 import { User } from '@prisma/client' // é importado apenas pra tipagem
