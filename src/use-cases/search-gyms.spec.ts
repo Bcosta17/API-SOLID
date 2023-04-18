@@ -55,8 +55,8 @@ describe('Search Gyms Use Case', async () => {
 
     expect(gyms).toHaveLength(2)
     expect(gyms).toEqual([
-      await expect.objectContaining({ title: 'JavaScript gym 21' }),
-      await expect.objectContaining({ title: 'JavaScript gym 22' }),
+      expect.objectContaining({ title: 'JavaScript Gym 21' }),
+      expect.objectContaining({ title: 'JavaScript Gym 22' }),
     ])
   })
 })
